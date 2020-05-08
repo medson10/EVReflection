@@ -13,13 +13,13 @@ end
 
 target 'Performance.Test' do
   project 'PerformanceTest/PerformanceTest'
-  platform :ios, '8.0'
+  platform :ios, '10.0'
   pod 'EVReflection/Core', :path => "./"
 end
 
 target 'UnitTestsiOS' do
     project 'UnitTests/UnitTests'
-    platform :ios, '8.0'
+    platform :ios, '10.0'
     alllibraries
 end
 
@@ -37,7 +37,7 @@ end
 
 target '44Demo5' do
     project 'Demo/Demo'
-    platform :ios, '8.0'
+    platform :ios, '10.0'
     alllibraries
 end
 

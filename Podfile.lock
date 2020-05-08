@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (4.8.1)
+  - Alamofire (4.9.1)
   - EVReflection/Alamofire (5.10.1):
     - Alamofire
     - EVReflection/Core
@@ -35,28 +35,26 @@ PODS:
   - EVReflection/XML (5.10.1):
     - EVReflection/Core
     - XMLDictionary
-  - Moya (12.0.1):
-    - Moya/Core (= 12.0.1)
-  - Moya/Core (12.0.1):
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
     - Alamofire (~> 4.1)
-    - Result (~> 4.0)
-  - Moya/ReactiveSwift (12.0.1):
+    - Result (~> 4.1)
+  - Moya/ReactiveSwift (13.0.1):
     - Moya/Core
-    - ReactiveSwift (~> 4.0)
-  - Moya/RxSwift (12.0.1):
+    - ReactiveSwift (~> 5.0)
+  - Moya/RxSwift (13.0.1):
     - Moya/Core
     - RxSwift (~> 4.0)
-  - ReactiveSwift (4.0.0):
-    - Result (~> 4.0)
-  - Realm (3.13.1):
-    - Realm/Headers (= 3.13.1)
-  - Realm/Headers (3.13.1)
-  - RealmSwift (3.13.1):
-    - Realm (= 3.13.1)
+  - ReactiveSwift (5.0.1):
+    - Result (~> 4.1)
+  - Realm (4.4.1):
+    - Realm/Headers (= 4.4.1)
+  - Realm/Headers (4.4.1)
+  - RealmSwift (4.4.1):
+    - Realm (= 4.4.1)
   - Result (4.1.0)
-  - RxAtomic (4.4.1)
-  - RxSwift (4.4.1):
-    - RxAtomic (~> 4.4)
+  - RxSwift (4.5.0)
   - XMLDictionary (1.4.1)
 
 DEPENDENCIES:
@@ -75,7 +73,6 @@ SPEC REPOS:
     - Realm
     - RealmSwift
     - Result
-    - RxAtomic
     - RxSwift
     - XMLDictionary
 
@@ -84,17 +81,16 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
-  EVReflection: c3dbeb194823e03074ad336d97973a78bcdfeb56
-  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
-  ReactiveSwift: a2bb9ace428a109e9c0209615645d9d286c8c433
-  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
-  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  EVReflection: f8a2287101b5e35f7ea8ade89d359a2a9bcebc15
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  ReactiveSwift: cac20a5bbe560c5806bd29c0fccf90d03b996ac1
+  Realm: 4eb04d7487bd43c0581256f40b424eafb711deff
+  RealmSwift: 3eb8924ff7100df5928c7602f71d0fec51e7c9c5
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
-  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
 
-PODFILE CHECKSUM: df2a70b11777d457966cfd407256116fcd1e2bdf
+PODFILE CHECKSUM: 2b9d53cfbbfdef41851078f204c2bd5107aad586
 
 COCOAPODS: 1.9.1

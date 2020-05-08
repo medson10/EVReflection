@@ -204,7 +204,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Realm-tvOS/Realm.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift-tvOS/RealmSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Result-tvOS/Result.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxAtomic-tvOS/RxAtomic.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-tvOS/RxSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMLDictionary-tvOS/XMLDictionary.framework"
 fi
@@ -216,7 +215,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Realm-tvOS/Realm.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RealmSwift-tvOS/RealmSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Result-tvOS/Result.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/RxAtomic-tvOS/RxAtomic.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxSwift-tvOS/RxSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XMLDictionary-tvOS/XMLDictionary.framework"
 fi
