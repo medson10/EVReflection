@@ -12,7 +12,7 @@ EOS
   s.author             = { "Edwin Vermeer" => "edwin@evict.nl" }
   s.social_media_url   = "http://twitter.com/evermeer"
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.11'
   s.watchos.deployment_target = '3.0'
   s.tvos.deployment_target = '9.0'
@@ -46,7 +46,7 @@ EOS
 # Extending EVReflection with mapping functions for CKRecord (CloudKit)
   s.subspec "CloudKit" do |ss|
     # CloudKit needs Watch OS version 3.0
-    ss.ios.deployment_target = '8.0'
+    ss.ios.deployment_target = '10.0'
     ss.osx.deployment_target = '10.11'
     ss.watchos.deployment_target = '3.0'
     ss.tvos.deployment_target = '9.0'

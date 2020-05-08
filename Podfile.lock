@@ -1,38 +1,38 @@
 PODS:
   - Alamofire (4.8.1)
-  - EVReflection/Alamofire (5.9.0):
+  - EVReflection/Alamofire (5.10.1):
     - Alamofire
     - EVReflection/Core
-  - EVReflection/AlamofireXML (5.9.0):
+  - EVReflection/AlamofireXML (5.10.1):
     - EVReflection/Alamofire
     - EVReflection/XML
-  - EVReflection/CloudKit (5.9.0):
+  - EVReflection/CloudKit (5.10.1):
     - EVReflection/Core
-  - EVReflection/Core (5.9.0)
-  - EVReflection/CoreData (5.9.0):
+  - EVReflection/Core (5.10.1)
+  - EVReflection/CoreData (5.10.1):
     - EVReflection/Core
-  - EVReflection/Moya (5.9.0):
+  - EVReflection/Moya (5.10.1):
     - EVReflection/Alamofire
     - Moya
-  - EVReflection/MoyaReactiveSwift (5.9.0):
+  - EVReflection/MoyaReactiveSwift (5.10.1):
     - EVReflection/Moya
     - Moya/ReactiveSwift
-  - EVReflection/MoyaReactiveSwiftXML (5.9.0):
+  - EVReflection/MoyaReactiveSwiftXML (5.10.1):
     - EVReflection/MoyaReactiveSwift
     - EVReflection/MoyaXML
-  - EVReflection/MoyaRxSwift (5.9.0):
+  - EVReflection/MoyaRxSwift (5.10.1):
     - EVReflection/Moya
     - Moya/RxSwift
-  - EVReflection/MoyaRxSwiftXML (5.9.0):
+  - EVReflection/MoyaRxSwiftXML (5.10.1):
     - EVReflection/MoyaRxSwift
     - EVReflection/MoyaXML
-  - EVReflection/MoyaXML (5.9.0):
+  - EVReflection/MoyaXML (5.10.1):
     - EVReflection/AlamofireXML
     - EVReflection/Moya
-  - EVReflection/Realm (5.9.0):
+  - EVReflection/Realm (5.10.1):
     - EVReflection/Core
     - RealmSwift
-  - EVReflection/XML (5.9.0):
+  - EVReflection/XML (5.10.1):
     - EVReflection/Core
     - XMLDictionary
   - Moya (12.0.1):
@@ -68,7 +68,7 @@ DEPENDENCIES:
   - EVReflection/Realm (from `./`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - Moya
     - ReactiveSwift
@@ -85,7 +85,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
-  EVReflection: 52aa00a9035145b1fcf99acae01b782ecc4adad7
+  EVReflection: c3dbeb194823e03074ad336d97973a78bcdfeb56
   Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   ReactiveSwift: a2bb9ace428a109e9c0209615645d9d286c8c433
   Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
@@ -97,4 +97,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: df2a70b11777d457966cfd407256116fcd1e2bdf
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.9.1
